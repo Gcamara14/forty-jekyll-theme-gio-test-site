@@ -13,14 +13,17 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+    <section id="banner" class="major" >
         <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+            <header class="major" role="italian-pizza">
+                
+		<h1>{{ page.landing-title }}</h1>
+		<h1 tabindex="0">Gio causing bugs</h1>
+		<a href="#">learn more</a>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
+                <p style="color:orange; text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions" role="pizza pie">
                     <li><a href="#one" class="button next scrolly">Get Started</a></li>
                 </ul>
             </div>
@@ -40,7 +43,7 @@
                     <h2>Massa libero</h2>
                 </header>
                 <p>{{ content }}</p>
-                <ul class="actions">
+                <ul class="actions" role="navigational-element-lol">
                     <li><a href="landing.html" class="button next">Get Started</a></li>
                 </ul>
             </div>

@@ -313,7 +313,7 @@ Finally, this is a <a href="#">link</a>.</p>
 		<!-- Break -->
 		<div class="12u$">
 			<div class="select-wrapper">
-				<select name="demo-category" id="demo-category">
+				<select aria-label="category" name="demo-category" id="demo-category">
 					<option value="">- Category -</option>
 					<option value="1">Manufacturing</option>
 					<option value="1">Shipping</option>
